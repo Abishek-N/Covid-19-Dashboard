@@ -136,7 +136,7 @@ public class OperationController extends HttpServlet {
 			}
 		}
 		else {
-			response.sendRedirect("register");
+			response.sendRedirect(url+"register");
 		}
 	}
 	protected void register(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
